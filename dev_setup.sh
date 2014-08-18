@@ -34,3 +34,10 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vi
 
 # Install vim-coffee-script (https://github.com/kchmck/vim-coffee-script)
 git clone https://github.com/kchmck/vim-coffee-script.git ~/.vim/bundle/vim-coffee-script/
+
+# Install mongodb
+brew install mongodb
+
+# Create /data/db to be used by mongodb
+sudo mkdir -p /data/db
+
