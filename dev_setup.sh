@@ -31,3 +31,6 @@ npm install -g gulp
 
 # Install vim pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+# Install vim-coffee-script (https://github.com/kchmck/vim-coffee-script)
+git clone https://github.com/kchmck/vim-coffee-script.git ~/.vim/bundle/vim-coffee-script/
